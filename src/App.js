@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 import {Navbar } from './components/NavBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
