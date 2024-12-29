@@ -1,6 +1,6 @@
-import logo from './logo.png';
+import logo from '../assets/img/logo.png'; // If App.js is in `src/components/`
 import './App.css';
-import {Navbar } from './components/NavBar';
+import NavBar from './components/NavBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
