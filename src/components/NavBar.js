@@ -34,7 +34,7 @@ export const CustomNavBar = () => { // Renamed component to avoid conflict
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
-          <img src={logo} alt="Logo" />
+          <img src={logo} alt="Logo"className="logo" style={{ maxWidth: '150px', height: 'auto' }} />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
