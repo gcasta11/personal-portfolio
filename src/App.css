@@ -84,6 +84,11 @@ p.danger {
 
 
 /************ Navbar Css ************/
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 nav.navbar {
   padding: 18px 0;
   position: fixed;
@@ -108,16 +113,16 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   opacity: 0.75;
 }
 
-.logo {
-  max-width: 150px; /* Size for the logo */
-  height: auto;     /* Maintain aspect ratio */
+/*.logo {
+  max-width: 150px; 
+  height: auto;    
 }
 .Navbar-brand {
   padding: 0;
   display: flex;
   align-items: center;
-}
-
+} 
+*/
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
     opacity: 1;
