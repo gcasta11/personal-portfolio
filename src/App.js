@@ -1,11 +1,10 @@
-import React from 'react';
-import { CustomNavBar } from './components/NavBar'; // Import updated name
-import './App.css';
+// src/App.js
+import { NavBar } from './components/NavBar';  // Updated import
 
 function App() {
   return (
-    <div className="App">
-      <CustomNavBar />
+    <div>
+      <NavBar />  {/* Use NavBar component here */}
     </div>
   );
 }
